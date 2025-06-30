@@ -1,0 +1,36 @@
+name: Build Jekyll Site
+
+on:
+  push:
+    branches:
+      - main # Or 'master' if your default branch is master
+  pull_request:
+    branches:
+      - main # Or 'master'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Set up Ruby
+        uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: '3.x' # Use a recent Ruby version compatible with al-folio. You might need to check al-folio's documentation or experiment (e.g., '3.1', '3.2', '3.3').
+          bundler-cache: true # Installs gems with Bundler
+
+      - name: Install Jekyll and Dependencies
+        run: bundle install
+
+      - name: Build Jekyll site
+        run: bundle exec jekyll build
+
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v3
+        if: github.ref == 'refs/heads/main' # Or 'refs/heads/master'
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./_site
