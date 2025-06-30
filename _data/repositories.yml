@@ -1,12 +1,8 @@
 github_users:
-  - torvalds
-  - alshedivat
+  - tabpeter
 
 github_repos:
-  - alshedivat/al-folio
-  - twbs/bootstrap
-  - jekyll/jekyll
-  - jquery/jquery
-  - FortAwesome/Font-Awesome
-  - jpswalsh/academicons
-  - mathjax/MathJax
+  - pbreheny/plmmr
+  - pbreheny/biglasso
+  - tabpeter/demo_plmmr
+  - tabpeter/ra_reference_manual
