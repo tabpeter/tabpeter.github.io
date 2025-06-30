@@ -3,10 +3,10 @@ name: Build Jekyll Site
 on:
   push:
     branches:
-      - main # Or 'master' if your default branch is master
+      - master 
   pull_request:
     branches:
-      - main # Or 'master'
+      - master
 
 jobs:
   build:
@@ -19,18 +19,32 @@ jobs:
       - name: Set up Ruby
         uses: ruby/setup-ruby@v1
         with:
-          ruby-version: '3.x' # Use a recent Ruby version compatible with al-folio. You might need to check al-folio's documentation or experiment (e.g., '3.1', '3.2', '3.3').
-          bundler-cache: true # Installs gems with Bundler
+          # IMPORTANT: Choose a Ruby version compatible with all your gems.
+          # al-folio usually requires a modern Ruby (3.1, 3.2, or 3.3 are good candidates).
+          # If you're unsure, try '3.2' first, then '3.3' if that fails.
+          ruby-version: '3.3'
+          # This tells Bundler to use the Gemfile.lock (or create one if not present)
+          # and cache the installed gems.
+          bundler-cache: true
 
+      # This step is often redundant if bundler-cache is true,
+      # but it ensures all gems are present.
       - name: Install Jekyll and Dependencies
-        run: bundle install
+        run: |
+          # Ensure Bundler is up-to-date
+          gem install bundler
+          # Install gems from Gemfile.lock or Gemfile
+          bundle install --jobs 4 --retry 3
 
       - name: Build Jekyll site
+        # Use bundle exec to ensure Jekyll uses the correct gems
         run: bundle exec jekyll build
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
-        if: github.ref == 'refs/heads/main' # Or 'refs/heads/master'
+        if: github.ref == 'refs/heads/master' 
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./_site
+          # Keep history of deployments for better debugging
+          # cname: 'yourdomain.com' # Uncomment and set if you use a custom domain
