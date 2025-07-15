@@ -4,10 +4,8 @@ title: Software for analyzing global family-based association studies
 description: Penalized linear mixed models for correlated genetic data with application to orofacial clefts
 img: /assets/img/plmmr_hex_sticker.png
 importance: 1
-category: work
+category: research
 ---
-
-# Developing a Scalable Solution for Complex Genetic Data Analysis
 
 ## Summary
 
