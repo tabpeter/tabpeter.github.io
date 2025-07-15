@@ -103,7 +103,7 @@ instagram_id: tabitha_peter # your instagram id
 # discord_id: # your discord id (18-digit unique numerical identifier)
 
 contact_note: >
-  You can even add a little note about which of these is the best way to reach you.
+ Best way to reach me: tabitha.peter15@gmail.com
 
 # -----------------------------------------------------------------------------
 # Analytics and search engine verification
@@ -119,7 +119,7 @@ contact_note: >
 # Blog
 # -----------------------------------------------------------------------------
 
-blog_name: tabpeter-folio # blog_name will be displayed in your blog page
+blog_name: Tabitha's Blog # blog_name will be displayed in your blog page
 blog_nav_title: blog # your blog must have a title for it to be displayed in the nav bar
 blog_description: Will add this soon
 permalink: /blog/:year/:title/
@@ -344,7 +344,7 @@ enable_math:                true   # enables math typesetting (uses MathJax)
 enable_tooltips:            false  # enables automatic tooltip links generated
                                    # for each section titles on pages and posts
 enable_darkmode:            true   # enables switching between light/dark modes
-enable_navbar_social:       false  # enables displaying social links in the
+enable_navbar_social:       true  # enables displaying social links in the
                                    # navbar on the about page
 enable_project_categories:  true   # enables categorization of projects into
                                    # multiple categories
