@@ -15,24 +15,22 @@ Clinical professionals (e.g., dentists, doctors, nurses) need an understanding o
 
 I have had the privilege to contribute 3 tutorials in collaboration with my colleagues at the U. Iowa College of Dentistry: a tutorial on time-to-event analysis, a tutorial on meta-analysis, and a tutorial on data collection.
 
-::: row
-```         
-<div class="col-sm mt-3 mt-md-0">
+<div class="row">
+  <div class="col-sm mt-3 mt-md-0">
     {% include figure.html path="assets/img/surv-tutorial-graphic.png" title="example image" class="img-fluid rounded z-depth-1" %}
-</div>
-<div class="col-sm mt-3 mt-md-0">
+  </div>
+  <div class="col-sm mt-3 mt-md-0">
     {% include figure.html path="assets/img/meta-tutorial-graphic.png" title="example image" class="img-fluid rounded z-depth-1" %}
-</div>
-<div class="col-sm mt-3 mt-md-0">
+  </div>
+  <div class="col-sm mt-3 mt-md-0">
     {% include figure.html path="assets/img/data-tutorial-graphic.png" title="example image" class="img-fluid rounded z-depth-1" %}
+  </div>
 </div>
-```
-:::
 
-::: caption
+<div class="caption">
 Left panel: A [tutorial](https://pubmed.ncbi.nlm.nih.gov/37083914/) that covers how to interpret time-to-event (i.e., survival) data analysis.
 
 Middle panel: A [tutorial](https://pubmed.ncbi.nlm.nih.gov/38415999/) that covers how to interpret and design a meta-analysis.
 
 Right panel: A [tutorial](https://pubmed.ncbi.nlm.nih.gov/38905115/) that details practical considerations for clinical data collection.
-:::
+</div>

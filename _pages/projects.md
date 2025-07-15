@@ -2,7 +2,7 @@
 layout: page
 title: projects
 permalink: /projects/
-description: A growing collection of your cool projects.
+description: My projects are categorized here into 'research' (pertaining to original scientific research) and 'writing' (projects where the objective was to create accessible written content for the scientific community).
 nav: true
 nav_order: 3
 display_categories: [research, writing]
