@@ -1,22 +1,13 @@
 ---
 layout: page
-title: Software for analyzing global family-based association studies - penalized linear mixed models for correlated genetic data with application to orofacial clefts
-description: My favorite collaborative research project, which greew to become my doctoral dissertation
-img: assets/img/12.jpg
+title: Software for analyzing global family-based association studies 
+description: Penalized linear mixed models for correlated genetic data with application to orofacial clefts
+img: /assets/img/plmmr_hex_sticker.png
 importance: 1
 category: work
 ---
 
-Developing a Scalable Solution for Complex Genetic Data Analysis
-
-```         
----
-layout: page
-title: Software for analyzing global family-based association studies
-description: Penalized linear mixed models for correlated genetic data with application to orofacial clefts
-img: /assets/img/plmmr_hex_sticker.png
----
-```
+# Developing a Scalable Solution for Complex Genetic Data Analysis
 
 ## Summary
 
