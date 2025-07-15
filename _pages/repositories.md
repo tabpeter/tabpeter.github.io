@@ -2,7 +2,7 @@
 layout: page
 permalink: /repositories/
 title: repositories
-description: Edit the `_data/repositories.yml` and change the `github_users` and `github_repos` lists to include your own GitHub profile and repositories.
+description: My work in statistical software package development includes R/C++ packages for high-dimensional data analysis. In addition to my statistical work, I have written tutorial-style content that includes a reference manual for graduate research assistants in biostatistics/data science. 
 nav: true
 nav_order: 2
 ---
