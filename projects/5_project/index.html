@@ -10,9 +10,9 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Machine Learning and Feature Selection Methods for Disease Classification | </title>
+    <title>Data analysis tutorial series for a clinical journal | </title>
     <meta name="author" content="Tabitha K. Peter">
-    <meta name="description" content="with application to lung cancer screening image data">
+    <meta name="description" content="A collaboration with the International Journal of Oral and Maxillofacial Implants">
     <meta name="keywords" content="portfolio-website, biostatistics, data science, statistical genetics">
 
 
@@ -33,7 +33,7 @@
     <link rel="shortcut icon" href="data:image/svg+xml,&lt;svg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20100%20100%22&gt;&lt;text%20y=%22.9em%22%20font-size=%2290%22&gt;%E2%9A%9B%EF%B8%8F&lt;/text&gt;&lt;/svg&gt;">
     
     <link rel="stylesheet" href="/assets/css/main.css">
-    <link rel="canonical" href="https://tabpeter.github.io/projects/2_project/">
+    <link rel="canonical" href="https://tabpeter.github.io/projects/5_project/">
     
     <!-- Dark Mode -->
     
@@ -113,18 +113,159 @@
         <div class="post">
 
           <header class="post-header">
-            <h1 class="post-title">Machine Learning and Feature Selection Methods for Disease Classification</h1>
-            <p class="post-description">with application to lung cancer screening image data</p>
+            <h1 class="post-title">Data analysis tutorial series for a clinical journal</h1>
+            <p class="post-description">A collaboration with the International Journal of Oral and Maxillofacial Implants</p>
           </header>
 
           <article>
-            <h2 id="summary">Summary</h2>
+            <h2 id="context-and-motivation">Context and motivation</h2>
 
-<p>The high false positive rate in lung cancer screening, as seen in studies like the <a href="https://www.cancer.gov/types/lung/research/nlst" rel="external nofollow noopener" target="_blank">National Lung Screening Trial</a> (NLST), presented a significant challenge, leading to unnecessary follow-up procedures and patient anxiety. Our project addressed this critical problem by <strong>developing and applying advanced machine learning and feature selection methods</strong> to improve the accuracy of lung cancer nodule classification from CT scan image data.</p>
+<p>Clinical professionals (e.g., dentists, doctors, nurses) need an understanding of statistical principles in order to critically read and correctly interpret findings in their fields of interest. In order to create accessible materials that prepare dentists for reading and interpreting quantitative research results, the <a href="https://www.quintessence-publishing.com/deu/en/journal/the-international-journal-of-oral-maxillofacial-implants" rel="external nofollow noopener" target="_blank">International Journal of Oral and Maxillofacial Implants</a> (IJOMI) has published a series of tutorial-style articles for its readers. Written with examples from real clinical practice, these tutorials have covered topics that range from how to collect data to interpreting survival analysis results.</p>
 
-<p>I contributed to this effort by analyzing 416 quantitative imaging biomarkers from 200 patient CT scans. Through the application of various predictive classifying models (linear, nonlinear, and ensemble) and diverse feature selection methods, we sought to identify the most effective approaches for distinguishing cancerous from benign nodules.</p>
+<h2 id="my-contributions">My contributions</h2>
 
-<p>Our research successfully demonstrated that specific machine learning classifiers, such as elastic net and support vector machine, when combined with linear combination or correlation feature selection methods, <strong>significantly enhance the accuracy of lung nodule classification (</strong><a href="https://doi.org/10.3389/fonc.2019.01393" rel="external nofollow noopener" target="_blank">Delzell et al., 2019</a><strong>)</strong>. Crucially, these methods also <strong>substantially reduced the false positive rate</strong> compared to previous studies like the NLST. This work contributes directly to <strong>more precise and efficient lung cancer screening</strong>, ultimately aiming to improve patient outcomes by minimizing unnecessary procedures and providing more reliable diagnoses.</p>
+<p>I have had the privilege to contribute 3 tutorials in collaboration with my colleagues at the U. Iowa College of Dentistry: a tutorial on time-to-event analysis, a tutorial on meta-analysis, and a tutorial on data collection.</p>
+
+<p>::: row</p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&lt;div class="col-sm mt-3 mt-md-0"&gt;
+    &lt;figure&gt;
+
+  &lt;picture&gt;
+    
+    &lt;source 
+        class="responsive-img-srcset"
+        media="(max-width: 480px)" 
+        srcset="/assets/img/surv-tutorial-graphic-480.webp"
+      /&gt;
+    &lt;source 
+        class="responsive-img-srcset"
+        media="(max-width: 800px)" 
+        srcset="/assets/img/surv-tutorial-graphic-800.webp"
+      /&gt;
+    &lt;source 
+        class="responsive-img-srcset"
+        media="(max-width: 1400px)" 
+        srcset="/assets/img/surv-tutorial-graphic-1400.webp"
+      /&gt;
+    
+
+    &lt;!-- Fallback to the original file --&gt;
+    &lt;img 
+      src="/assets/img/surv-tutorial-graphic.png"
+      class="img-fluid rounded z-depth-1"  
+      width="auto" 
+      height="auto" 
+       
+       
+       
+       
+       
+      title="example image" 
+      
+      onerror="this.onerror=null; $('.responsive-img-srcset').remove();"
+    /&gt;
+
+  &lt;/picture&gt;
+
+&lt;/figure&gt;
+
+&lt;/div&gt;
+&lt;div class="col-sm mt-3 mt-md-0"&gt;
+    &lt;figure&gt;
+
+  &lt;picture&gt;
+    
+    &lt;source 
+        class="responsive-img-srcset"
+        media="(max-width: 480px)" 
+        srcset="/assets/img/meta-tutorial-graphic-480.webp"
+      /&gt;
+    &lt;source 
+        class="responsive-img-srcset"
+        media="(max-width: 800px)" 
+        srcset="/assets/img/meta-tutorial-graphic-800.webp"
+      /&gt;
+    &lt;source 
+        class="responsive-img-srcset"
+        media="(max-width: 1400px)" 
+        srcset="/assets/img/meta-tutorial-graphic-1400.webp"
+      /&gt;
+    
+
+    &lt;!-- Fallback to the original file --&gt;
+    &lt;img 
+      src="/assets/img/meta-tutorial-graphic.png"
+      class="img-fluid rounded z-depth-1"  
+      width="auto" 
+      height="auto" 
+       
+       
+       
+       
+       
+      title="example image" 
+      
+      onerror="this.onerror=null; $('.responsive-img-srcset').remove();"
+    /&gt;
+
+  &lt;/picture&gt;
+
+&lt;/figure&gt;
+
+&lt;/div&gt;
+&lt;div class="col-sm mt-3 mt-md-0"&gt;
+    &lt;figure&gt;
+
+  &lt;picture&gt;
+    
+    &lt;source 
+        class="responsive-img-srcset"
+        media="(max-width: 480px)" 
+        srcset="/assets/img/data-tutorial-graphic-480.webp"
+      /&gt;
+    &lt;source 
+        class="responsive-img-srcset"
+        media="(max-width: 800px)" 
+        srcset="/assets/img/data-tutorial-graphic-800.webp"
+      /&gt;
+    &lt;source 
+        class="responsive-img-srcset"
+        media="(max-width: 1400px)" 
+        srcset="/assets/img/data-tutorial-graphic-1400.webp"
+      /&gt;
+    
+
+    &lt;!-- Fallback to the original file --&gt;
+    &lt;img 
+      src="/assets/img/data-tutorial-graphic.png"
+      class="img-fluid rounded z-depth-1"  
+      width="auto" 
+      height="auto" 
+       
+       
+       
+       
+       
+      title="example image" 
+      
+      onerror="this.onerror=null; $('.responsive-img-srcset').remove();"
+    /&gt;
+
+  &lt;/picture&gt;
+
+&lt;/figure&gt;
+
+&lt;/div&gt;
+</code></pre></div></div>
+<p>:::</p>
+
+<p>::: caption
+Left panel: A <a href="https://pubmed.ncbi.nlm.nih.gov/37083914/" rel="external nofollow noopener" target="_blank">tutorial</a> that covers how to interpret time-to-event (i.e., survival) data analysis.</p>
+
+<p>Middle panel: A <a href="https://pubmed.ncbi.nlm.nih.gov/38415999/" rel="external nofollow noopener" target="_blank">tutorial</a> that covers how to interpret and design a meta-analysis.</p>
+
+<p>Right panel: A <a href="https://pubmed.ncbi.nlm.nih.gov/38905115/" rel="external nofollow noopener" target="_blank">tutorial</a> that details practical considerations for clinical data collection.
+:::</p>
 
           </article>
 
