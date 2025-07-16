@@ -3,7 +3,7 @@ layout: page
 permalink: /publications/
 title: publications
 description: Publications listed here, includes both peer-reviewed articles and pre-prints
-years: [2019, 2020, 2021, 2022, 2023, 2024, 2025]
+years: [2025, 2024, 2023, 2022, 2021, 2019]
 nav: true
 nav_order: 4
 ---

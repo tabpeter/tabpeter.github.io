@@ -27,10 +27,9 @@ I have had the privilege to contribute 3 tutorials in collaboration with my coll
   </div>
 </div>
 
-<div class="caption">
+
 Left panel: A [tutorial](https://pubmed.ncbi.nlm.nih.gov/37083914/) that covers how to interpret time-to-event (i.e., survival) data analysis.
 
 Middle panel: A [tutorial](https://pubmed.ncbi.nlm.nih.gov/38415999/) that covers how to interpret and design a meta-analysis.
 
 Right panel: A [tutorial](https://pubmed.ncbi.nlm.nih.gov/38905115/) that details practical considerations for clinical data collection.
-</div>
