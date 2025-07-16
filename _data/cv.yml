@@ -27,6 +27,7 @@
     - title: PhD
       institution: University of Iowa, Iowa City, Iowa
       year: 2025
-      description: |
-        Doctoral Advisor: Patrick Breheny
-        Dissertation: Software for analyzing global family-based assocation studies - penalized linear mixed models for correlated genetic data with application to orofacial clefts
+    - name: Doctoral Advisor
+      value: Patrick Breheny
+    - name: Dissertation 
+      value: Software for analyzing global family-based assocation studies - penalized linear mixed models for correlated genetic data with application to orofacial clefts
