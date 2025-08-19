@@ -1,7 +1,7 @@
 ---
 layout: about
-title: about
-permalink: /
+title: bio
+permalink: /bio/
 subtitle: A brief bio
 
 profile:
@@ -18,4 +18,8 @@ social: true  # includes social icons at the bottom of the page
 ---
 
 This page tells a little more about me and my journey into biostatistics. 
+
+The role of a biostatistician is largely the role of the storyteller -- I get to communicate 
+
+
 
